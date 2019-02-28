@@ -12,23 +12,23 @@
       "componentType" : "CONNECTION",
       "destination" : {
         "comments" : "",
-        "groupId" : "354b007f-0169-1000-ffff-ffff975e326d",
-        "id" : "382f7df3-8964-321b-94dc-43458a2450df",
-        "name" : "Funnel",
-        "type" : "FUNNEL"
+        "groupId" : "300c057a-0169-1000-0000-0000479bec58",
+        "id" : "690906b3-78a8-3e7d-b1cc-ec756cb799d4",
+        "name" : "RouteOnContent",
+        "type" : "PROCESSOR"
       },
       "flowFileExpiration" : "0 sec",
-      "groupIdentifier" : "8dfa1c1d-9637-39a5-ae08-d3da71fb86e9",
-      "identifier" : "d0c5b80c-12b7-30b3-9430-9f88de1762d0",
+      "groupIdentifier" : "7385d56c-c786-3da8-a97c-0a5d969df9eb",
+      "identifier" : "6a1f06d1-75eb-3c7b-844c-9e36c3078a43",
       "labelIndex" : 1,
       "name" : "",
-      "prioritizers" : [ ],
-      "selectedRelationships" : [ "ERROR", "INFO", "unmatched", "WARN" ],
+      "prioritizers" : [ "org.apache.nifi.prioritizer.FirstInFirstOutPrioritizer" ],
+      "selectedRelationships" : [ "splits" ],
       "source" : {
         "comments" : "",
-        "groupId" : "354b007f-0169-1000-ffff-ffff975e326d",
-        "id" : "1afd6762-5512-3f81-aa16-4464c8f877c4",
-        "name" : "RouteOnContent",
+        "groupId" : "300c057a-0169-1000-0000-0000479bec58",
+        "id" : "dff9ae26-1781-371d-a09f-4fb7cd9f3840",
+        "name" : "SplitText",
         "type" : "PROCESSOR"
       },
       "zIndex" : 0
@@ -39,22 +39,49 @@
       "componentType" : "CONNECTION",
       "destination" : {
         "comments" : "",
-        "groupId" : "354b007f-0169-1000-ffff-ffff975e326d",
-        "id" : "48542eda-67a6-366b-9a64-4fe83dc7784f",
+        "groupId" : "300c057a-0169-1000-0000-0000479bec58",
+        "id" : "3fecc102-2b43-3331-87ac-6ac0168cb1f8",
+        "name" : "Funnel",
+        "type" : "FUNNEL"
+      },
+      "flowFileExpiration" : "0 sec",
+      "groupIdentifier" : "7385d56c-c786-3da8-a97c-0a5d969df9eb",
+      "identifier" : "aae85600-0255-3ecb-b16f-d3fb7715539c",
+      "labelIndex" : 1,
+      "name" : "",
+      "prioritizers" : [ ],
+      "selectedRelationships" : [ "failure" ],
+      "source" : {
+        "comments" : "",
+        "groupId" : "300c057a-0169-1000-0000-0000479bec58",
+        "id" : "dff9ae26-1781-371d-a09f-4fb7cd9f3840",
+        "name" : "SplitText",
+        "type" : "PROCESSOR"
+      },
+      "zIndex" : 0
+    }, {
+      "backPressureDataSizeThreshold" : "1 GB",
+      "backPressureObjectThreshold" : 10000,
+      "bends" : [ ],
+      "componentType" : "CONNECTION",
+      "destination" : {
+        "comments" : "",
+        "groupId" : "300c057a-0169-1000-0000-0000479bec58",
+        "id" : "dff9ae26-1781-371d-a09f-4fb7cd9f3840",
         "name" : "SplitText",
         "type" : "PROCESSOR"
       },
       "flowFileExpiration" : "0 sec",
-      "groupIdentifier" : "8dfa1c1d-9637-39a5-ae08-d3da71fb86e9",
-      "identifier" : "d6a8f5e9-2159-31d2-a19a-c6aacfee80d0",
+      "groupIdentifier" : "7385d56c-c786-3da8-a97c-0a5d969df9eb",
+      "identifier" : "927347a6-e99f-3fd0-b5c7-deade646a36e",
       "labelIndex" : 1,
       "name" : "",
       "prioritizers" : [ "org.apache.nifi.prioritizer.FirstInFirstOutPrioritizer" ],
       "selectedRelationships" : [ "success" ],
       "source" : {
         "comments" : "",
-        "groupId" : "354b007f-0169-1000-ffff-ffff975e326d",
-        "id" : "73f9ea42-f8a8-31c7-bee5-095cf2283349",
+        "groupId" : "300c057a-0169-1000-0000-0000479bec58",
+        "id" : "b962ada5-64c9-38e8-9443-d695bfdee8a9",
         "name" : "TailFile",
         "type" : "PROCESSOR"
       },
@@ -66,50 +93,23 @@
       "componentType" : "CONNECTION",
       "destination" : {
         "comments" : "",
-        "groupId" : "354b007f-0169-1000-ffff-ffff975e326d",
-        "id" : "382f7df3-8964-321b-94dc-43458a2450df",
+        "groupId" : "300c057a-0169-1000-0000-0000479bec58",
+        "id" : "3fecc102-2b43-3331-87ac-6ac0168cb1f8",
         "name" : "Funnel",
         "type" : "FUNNEL"
       },
       "flowFileExpiration" : "0 sec",
-      "groupIdentifier" : "8dfa1c1d-9637-39a5-ae08-d3da71fb86e9",
-      "identifier" : "72947f01-0b74-39f2-9e79-b428f97ba157",
+      "groupIdentifier" : "7385d56c-c786-3da8-a97c-0a5d969df9eb",
+      "identifier" : "5d3ad92d-73ed-3c07-829d-65eb696316ee",
       "labelIndex" : 1,
       "name" : "",
       "prioritizers" : [ ],
-      "selectedRelationships" : [ "failure" ],
+      "selectedRelationships" : [ "ERROR", "INFO", "unmatched", "WARN" ],
       "source" : {
         "comments" : "",
-        "groupId" : "354b007f-0169-1000-ffff-ffff975e326d",
-        "id" : "48542eda-67a6-366b-9a64-4fe83dc7784f",
-        "name" : "SplitText",
-        "type" : "PROCESSOR"
-      },
-      "zIndex" : 0
-    }, {
-      "backPressureDataSizeThreshold" : "1 GB",
-      "backPressureObjectThreshold" : 10000,
-      "bends" : [ ],
-      "componentType" : "CONNECTION",
-      "destination" : {
-        "comments" : "",
-        "groupId" : "354b007f-0169-1000-ffff-ffff975e326d",
-        "id" : "1afd6762-5512-3f81-aa16-4464c8f877c4",
+        "groupId" : "300c057a-0169-1000-0000-0000479bec58",
+        "id" : "690906b3-78a8-3e7d-b1cc-ec756cb799d4",
         "name" : "RouteOnContent",
-        "type" : "PROCESSOR"
-      },
-      "flowFileExpiration" : "0 sec",
-      "groupIdentifier" : "8dfa1c1d-9637-39a5-ae08-d3da71fb86e9",
-      "identifier" : "28f80902-1bed-3e3b-95f0-aa4f8a34fb3a",
-      "labelIndex" : 1,
-      "name" : "",
-      "prioritizers" : [ "org.apache.nifi.prioritizer.FirstInFirstOutPrioritizer" ],
-      "selectedRelationships" : [ "splits" ],
-      "source" : {
-        "comments" : "",
-        "groupId" : "354b007f-0169-1000-ffff-ffff975e326d",
-        "id" : "48542eda-67a6-366b-9a64-4fe83dc7784f",
-        "name" : "SplitText",
         "type" : "PROCESSOR"
       },
       "zIndex" : 0
@@ -117,21 +117,21 @@
     "controllerServices" : [ ],
     "funnels" : [ {
       "componentType" : "FUNNEL",
-      "groupIdentifier" : "8dfa1c1d-9637-39a5-ae08-d3da71fb86e9",
-      "identifier" : "382f7df3-8964-321b-94dc-43458a2450df",
+      "groupIdentifier" : "7385d56c-c786-3da8-a97c-0a5d969df9eb",
+      "identifier" : "3fecc102-2b43-3331-87ac-6ac0168cb1f8",
       "position" : {
         "x" : 693.0,
         "y" : 794.6335174773528
       }
     } ],
-    "identifier" : "8dfa1c1d-9637-39a5-ae08-d3da71fb86e9",
+    "identifier" : "7385d56c-c786-3da8-a97c-0a5d969df9eb",
     "inputPorts" : [ ],
     "labels" : [ ],
     "name" : "TailFile",
     "outputPorts" : [ ],
     "position" : {
-      "x" : 1447.0,
-      "y" : 164.0
+      "x" : 1183.0,
+      "y" : 156.0
     },
     "processGroups" : [ ],
     "processors" : [ {
@@ -146,8 +146,8 @@
       "componentType" : "PROCESSOR",
       "concurrentlySchedulableTaskCount" : 1,
       "executionNode" : "ALL",
-      "groupIdentifier" : "8dfa1c1d-9637-39a5-ae08-d3da71fb86e9",
-      "identifier" : "1afd6762-5512-3f81-aa16-4464c8f877c4",
+      "groupIdentifier" : "7385d56c-c786-3da8-a97c-0a5d969df9eb",
+      "identifier" : "690906b3-78a8-3e7d-b1cc-ec756cb799d4",
       "name" : "RouteOnContent",
       "penaltyDuration" : "30 sec",
       "position" : {
@@ -218,13 +218,13 @@
       "componentType" : "PROCESSOR",
       "concurrentlySchedulableTaskCount" : 1,
       "executionNode" : "ALL",
-      "groupIdentifier" : "8dfa1c1d-9637-39a5-ae08-d3da71fb86e9",
-      "identifier" : "73f9ea42-f8a8-31c7-bee5-095cf2283349",
+      "groupIdentifier" : "7385d56c-c786-3da8-a97c-0a5d969df9eb",
+      "identifier" : "b962ada5-64c9-38e8-9443-d695bfdee8a9",
       "name" : "TailFile",
       "penaltyDuration" : "30 sec",
       "position" : {
-        "x" : 1105.730290128944,
-        "y" : 127.0
+        "x" : 755.730290128944,
+        "y" : 19.0
       },
       "properties" : {
         "tail-base-directory" : "/var/log/nifi",
@@ -311,8 +311,8 @@
       "componentType" : "PROCESSOR",
       "concurrentlySchedulableTaskCount" : 1,
       "executionNode" : "ALL",
-      "groupIdentifier" : "8dfa1c1d-9637-39a5-ae08-d3da71fb86e9",
-      "identifier" : "48542eda-67a6-366b-9a64-4fe83dc7784f",
+      "groupIdentifier" : "7385d56c-c786-3da8-a97c-0a5d969df9eb",
+      "identifier" : "dff9ae26-1781-371d-a09f-4fb7cd9f3840",
       "name" : "SplitText",
       "penaltyDuration" : "30 sec",
       "position" : {
