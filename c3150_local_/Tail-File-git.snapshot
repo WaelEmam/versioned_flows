@@ -12,49 +12,22 @@
       "componentType" : "CONNECTION",
       "destination" : {
         "comments" : "",
-        "groupId" : "354b007f-0169-1000-ffff-ffff975e326d",
-        "id" : "3f79a47e-cf6d-3b8e-8b0f-304c01a66f97",
-        "name" : "Funnel",
-        "type" : "FUNNEL"
-      },
-      "flowFileExpiration" : "0 sec",
-      "groupIdentifier" : "8dfa1c1d-9637-39a5-ae08-d3da71fb86e9",
-      "identifier" : "8db3a201-cd82-3ce3-847b-3a18947fa318",
-      "labelIndex" : 1,
-      "name" : "",
-      "prioritizers" : [ ],
-      "selectedRelationships" : [ "failure" ],
-      "source" : {
-        "comments" : "",
-        "groupId" : "354b007f-0169-1000-ffff-ffff975e326d",
-        "id" : "1fec30ab-6f67-3ef3-bd73-c41f637f7305",
-        "name" : "SplitText",
-        "type" : "PROCESSOR"
-      },
-      "zIndex" : 0
-    }, {
-      "backPressureDataSizeThreshold" : "1 GB",
-      "backPressureObjectThreshold" : 10000,
-      "bends" : [ ],
-      "componentType" : "CONNECTION",
-      "destination" : {
-        "comments" : "",
-        "groupId" : "354b007f-0169-1000-ffff-ffff975e326d",
-        "id" : "35338bbd-1c22-3e6d-b5c9-b9d0f5cf2cf2",
+        "groupId" : "300c057a-0169-1000-0000-0000479bec58",
+        "id" : "690906b3-78a8-3e7d-b1cc-ec756cb799d4",
         "name" : "RouteOnContent",
         "type" : "PROCESSOR"
       },
       "flowFileExpiration" : "0 sec",
-      "groupIdentifier" : "8dfa1c1d-9637-39a5-ae08-d3da71fb86e9",
-      "identifier" : "85df98c5-137e-3d50-a112-fedb71fcf61e",
+      "groupIdentifier" : "7385d56c-c786-3da8-a97c-0a5d969df9eb",
+      "identifier" : "6a1f06d1-75eb-3c7b-844c-9e36c3078a43",
       "labelIndex" : 1,
       "name" : "",
       "prioritizers" : [ "org.apache.nifi.prioritizer.FirstInFirstOutPrioritizer" ],
       "selectedRelationships" : [ "splits" ],
       "source" : {
         "comments" : "",
-        "groupId" : "354b007f-0169-1000-ffff-ffff975e326d",
-        "id" : "1fec30ab-6f67-3ef3-bd73-c41f637f7305",
+        "groupId" : "300c057a-0169-1000-0000-0000479bec58",
+        "id" : "dff9ae26-1781-371d-a09f-4fb7cd9f3840",
         "name" : "SplitText",
         "type" : "PROCESSOR"
       },
@@ -66,23 +39,23 @@
       "componentType" : "CONNECTION",
       "destination" : {
         "comments" : "",
-        "groupId" : "354b007f-0169-1000-ffff-ffff975e326d",
-        "id" : "3f79a47e-cf6d-3b8e-8b0f-304c01a66f97",
+        "groupId" : "300c057a-0169-1000-0000-0000479bec58",
+        "id" : "3fecc102-2b43-3331-87ac-6ac0168cb1f8",
         "name" : "Funnel",
         "type" : "FUNNEL"
       },
       "flowFileExpiration" : "0 sec",
-      "groupIdentifier" : "8dfa1c1d-9637-39a5-ae08-d3da71fb86e9",
-      "identifier" : "3538a4bb-ccd1-361e-9978-729889939c7f",
+      "groupIdentifier" : "7385d56c-c786-3da8-a97c-0a5d969df9eb",
+      "identifier" : "aae85600-0255-3ecb-b16f-d3fb7715539c",
       "labelIndex" : 1,
       "name" : "",
       "prioritizers" : [ ],
-      "selectedRelationships" : [ "ERROR", "INFO", "unmatched", "WARN" ],
+      "selectedRelationships" : [ "failure" ],
       "source" : {
         "comments" : "",
-        "groupId" : "354b007f-0169-1000-ffff-ffff975e326d",
-        "id" : "35338bbd-1c22-3e6d-b5c9-b9d0f5cf2cf2",
-        "name" : "RouteOnContent",
+        "groupId" : "300c057a-0169-1000-0000-0000479bec58",
+        "id" : "dff9ae26-1781-371d-a09f-4fb7cd9f3840",
+        "name" : "SplitText",
         "type" : "PROCESSOR"
       },
       "zIndex" : 0
@@ -93,23 +66,50 @@
       "componentType" : "CONNECTION",
       "destination" : {
         "comments" : "",
-        "groupId" : "354b007f-0169-1000-ffff-ffff975e326d",
-        "id" : "1fec30ab-6f67-3ef3-bd73-c41f637f7305",
+        "groupId" : "300c057a-0169-1000-0000-0000479bec58",
+        "id" : "dff9ae26-1781-371d-a09f-4fb7cd9f3840",
         "name" : "SplitText",
         "type" : "PROCESSOR"
       },
       "flowFileExpiration" : "0 sec",
-      "groupIdentifier" : "8dfa1c1d-9637-39a5-ae08-d3da71fb86e9",
-      "identifier" : "75c7b4a5-b6bc-3686-bad6-0fabc40cf070",
+      "groupIdentifier" : "7385d56c-c786-3da8-a97c-0a5d969df9eb",
+      "identifier" : "927347a6-e99f-3fd0-b5c7-deade646a36e",
       "labelIndex" : 1,
       "name" : "",
       "prioritizers" : [ "org.apache.nifi.prioritizer.FirstInFirstOutPrioritizer" ],
       "selectedRelationships" : [ "success" ],
       "source" : {
         "comments" : "",
-        "groupId" : "354b007f-0169-1000-ffff-ffff975e326d",
-        "id" : "81b470cd-2064-36af-a978-eff1a0b4b855",
+        "groupId" : "300c057a-0169-1000-0000-0000479bec58",
+        "id" : "b962ada5-64c9-38e8-9443-d695bfdee8a9",
         "name" : "TailFile",
+        "type" : "PROCESSOR"
+      },
+      "zIndex" : 0
+    }, {
+      "backPressureDataSizeThreshold" : "1 GB",
+      "backPressureObjectThreshold" : 10000,
+      "bends" : [ ],
+      "componentType" : "CONNECTION",
+      "destination" : {
+        "comments" : "",
+        "groupId" : "300c057a-0169-1000-0000-0000479bec58",
+        "id" : "3fecc102-2b43-3331-87ac-6ac0168cb1f8",
+        "name" : "Funnel",
+        "type" : "FUNNEL"
+      },
+      "flowFileExpiration" : "0 sec",
+      "groupIdentifier" : "7385d56c-c786-3da8-a97c-0a5d969df9eb",
+      "identifier" : "5d3ad92d-73ed-3c07-829d-65eb696316ee",
+      "labelIndex" : 1,
+      "name" : "",
+      "prioritizers" : [ ],
+      "selectedRelationships" : [ "ERROR", "INFO", "unmatched", "WARN" ],
+      "source" : {
+        "comments" : "",
+        "groupId" : "300c057a-0169-1000-0000-0000479bec58",
+        "id" : "690906b3-78a8-3e7d-b1cc-ec756cb799d4",
+        "name" : "RouteOnContent",
         "type" : "PROCESSOR"
       },
       "zIndex" : 0
@@ -117,87 +117,24 @@
     "controllerServices" : [ ],
     "funnels" : [ {
       "componentType" : "FUNNEL",
-      "groupIdentifier" : "8dfa1c1d-9637-39a5-ae08-d3da71fb86e9",
-      "identifier" : "3f79a47e-cf6d-3b8e-8b0f-304c01a66f97",
+      "groupIdentifier" : "7385d56c-c786-3da8-a97c-0a5d969df9eb",
+      "identifier" : "3fecc102-2b43-3331-87ac-6ac0168cb1f8",
       "position" : {
-        "x" : 662.3783245893333,
-        "y" : 705.2992000006732
+        "x" : 693.0,
+        "y" : 794.6335174773528
       }
     } ],
-    "identifier" : "8dfa1c1d-9637-39a5-ae08-d3da71fb86e9",
+    "identifier" : "7385d56c-c786-3da8-a97c-0a5d969df9eb",
     "inputPorts" : [ ],
     "labels" : [ ],
-    "name" : "TailFile2",
+    "name" : "TailFile",
     "outputPorts" : [ ],
     "position" : {
-      "x" : 685.0,
-      "y" : 209.0
+      "x" : 1183.0,
+      "y" : 156.0
     },
     "processGroups" : [ ],
     "processors" : [ {
-      "autoTerminatedRelationships" : [ "original" ],
-      "bulletinLevel" : "WARN",
-      "bundle" : {
-        "artifact" : "nifi-standard-nar",
-        "group" : "org.apache.nifi",
-        "version" : "1.7.0.3.2.0.0-520"
-      },
-      "comments" : "",
-      "componentType" : "PROCESSOR",
-      "concurrentlySchedulableTaskCount" : 1,
-      "executionNode" : "ALL",
-      "groupIdentifier" : "8dfa1c1d-9637-39a5-ae08-d3da71fb86e9",
-      "identifier" : "1fec30ab-6f67-3ef3-bd73-c41f637f7305",
-      "name" : "SplitText",
-      "penaltyDuration" : "30 sec",
-      "position" : {
-        "x" : 909.1086147182772,
-        "y" : 362.6656825233203
-      },
-      "properties" : {
-        "Remove Trailing Newlines" : "true",
-        "Header Line Count" : "0",
-        "Line Split Count" : "1"
-      },
-      "propertyDescriptors" : {
-        "Remove Trailing Newlines" : {
-          "displayName" : "Remove Trailing Newlines",
-          "identifiesControllerService" : false,
-          "name" : "Remove Trailing Newlines",
-          "sensitive" : false
-        },
-        "Maximum Fragment Size" : {
-          "displayName" : "Maximum Fragment Size",
-          "identifiesControllerService" : false,
-          "name" : "Maximum Fragment Size",
-          "sensitive" : false
-        },
-        "Header Line Marker Characters" : {
-          "displayName" : "Header Line Marker Characters",
-          "identifiesControllerService" : false,
-          "name" : "Header Line Marker Characters",
-          "sensitive" : false
-        },
-        "Header Line Count" : {
-          "displayName" : "Header Line Count",
-          "identifiesControllerService" : false,
-          "name" : "Header Line Count",
-          "sensitive" : false
-        },
-        "Line Split Count" : {
-          "displayName" : "Line Split Count",
-          "identifiesControllerService" : false,
-          "name" : "Line Split Count",
-          "sensitive" : false
-        }
-      },
-      "runDurationMillis" : 0,
-      "schedulingPeriod" : "0 sec",
-      "schedulingStrategy" : "TIMER_DRIVEN",
-      "style" : { },
-      "type" : "org.apache.nifi.processors.standard.SplitText",
-      "yieldDuration" : "1 sec"
-    }, {
       "autoTerminatedRelationships" : [ ],
       "bulletinLevel" : "WARN",
       "bundle" : {
@@ -209,13 +146,13 @@
       "componentType" : "PROCESSOR",
       "concurrentlySchedulableTaskCount" : 1,
       "executionNode" : "ALL",
-      "groupIdentifier" : "8dfa1c1d-9637-39a5-ae08-d3da71fb86e9",
-      "identifier" : "35338bbd-1c22-3e6d-b5c9-b9d0f5cf2cf2",
+      "groupIdentifier" : "7385d56c-c786-3da8-a97c-0a5d969df9eb",
+      "identifier" : "690906b3-78a8-3e7d-b1cc-ec756cb799d4",
       "name" : "RouteOnContent",
       "penaltyDuration" : "30 sec",
       "position" : {
-        "x" : 982.0552699917147,
-        "y" : 645.8144862342579
+        "x" : 1012.6769454023814,
+        "y" : 735.1488037109375
       },
       "properties" : {
         "Content Buffer Size" : "1 MB",
@@ -281,18 +218,17 @@
       "componentType" : "PROCESSOR",
       "concurrentlySchedulableTaskCount" : 1,
       "executionNode" : "ALL",
-      "groupIdentifier" : "8dfa1c1d-9637-39a5-ae08-d3da71fb86e9",
-      "identifier" : "81b470cd-2064-36af-a978-eff1a0b4b855",
+      "groupIdentifier" : "7385d56c-c786-3da8-a97c-0a5d969df9eb",
+      "identifier" : "b962ada5-64c9-38e8-9443-d695bfdee8a9",
       "name" : "TailFile",
       "penaltyDuration" : "30 sec",
       "position" : {
-        "x" : 971.1086147182772,
-        "y" : 114.6656825233203
+        "x" : 755.730290128944,
+        "y" : 19.0
       },
       "properties" : {
         "tail-base-directory" : "/var/log/nifi",
         "tailfile-recursive-lookup" : "false",
-        "tailfile-rolling-strategy" : "Changing name",
         "File Location" : "Local",
         "tailfile-maximum-age" : "24 hours",
         "Rolling Filename Pattern" : "nifi-app*",
@@ -312,12 +248,6 @@
           "displayName" : "Recursive lookup",
           "identifiesControllerService" : false,
           "name" : "tailfile-recursive-lookup",
-          "sensitive" : false
-        },
-        "tailfile-rolling-strategy" : {
-          "displayName" : "tailfile-rolling-strategy",
-          "identifiesControllerService" : false,
-          "name" : "tailfile-rolling-strategy",
           "sensitive" : false
         },
         "File Location" : {
@@ -368,6 +298,69 @@
       "schedulingStrategy" : "TIMER_DRIVEN",
       "style" : { },
       "type" : "org.apache.nifi.processors.standard.TailFile",
+      "yieldDuration" : "1 sec"
+    }, {
+      "autoTerminatedRelationships" : [ "original" ],
+      "bulletinLevel" : "WARN",
+      "bundle" : {
+        "artifact" : "nifi-standard-nar",
+        "group" : "org.apache.nifi",
+        "version" : "1.7.0.3.2.0.0-520"
+      },
+      "comments" : "",
+      "componentType" : "PROCESSOR",
+      "concurrentlySchedulableTaskCount" : 1,
+      "executionNode" : "ALL",
+      "groupIdentifier" : "7385d56c-c786-3da8-a97c-0a5d969df9eb",
+      "identifier" : "dff9ae26-1781-371d-a09f-4fb7cd9f3840",
+      "name" : "SplitText",
+      "penaltyDuration" : "30 sec",
+      "position" : {
+        "x" : 702.7302901289439,
+        "y" : 441.0
+      },
+      "properties" : {
+        "Remove Trailing Newlines" : "true",
+        "Header Line Count" : "0",
+        "Line Split Count" : "1"
+      },
+      "propertyDescriptors" : {
+        "Remove Trailing Newlines" : {
+          "displayName" : "Remove Trailing Newlines",
+          "identifiesControllerService" : false,
+          "name" : "Remove Trailing Newlines",
+          "sensitive" : false
+        },
+        "Maximum Fragment Size" : {
+          "displayName" : "Maximum Fragment Size",
+          "identifiesControllerService" : false,
+          "name" : "Maximum Fragment Size",
+          "sensitive" : false
+        },
+        "Header Line Marker Characters" : {
+          "displayName" : "Header Line Marker Characters",
+          "identifiesControllerService" : false,
+          "name" : "Header Line Marker Characters",
+          "sensitive" : false
+        },
+        "Header Line Count" : {
+          "displayName" : "Header Line Count",
+          "identifiesControllerService" : false,
+          "name" : "Header Line Count",
+          "sensitive" : false
+        },
+        "Line Split Count" : {
+          "displayName" : "Line Split Count",
+          "identifiesControllerService" : false,
+          "name" : "Line Split Count",
+          "sensitive" : false
+        }
+      },
+      "runDurationMillis" : 0,
+      "schedulingPeriod" : "0 sec",
+      "schedulingStrategy" : "TIMER_DRIVEN",
+      "style" : { },
+      "type" : "org.apache.nifi.processors.standard.SplitText",
       "yieldDuration" : "1 sec"
     } ],
     "remoteProcessGroups" : [ ],
