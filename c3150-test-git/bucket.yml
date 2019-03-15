@@ -1,5 +1,5 @@
 flows:
   a4b6abee-4811-4af0-bf97-58b4248b8839: {ver: 4, file: Tail-File-Git.snapshot}
-  d6463bc4-4894-4115-9b75-1aff6aa18c96: {ver: 1, file: test2.snapshot}
+  d6463bc4-4894-4115-9b75-1aff6aa18c96: {ver: 2, file: test2.snapshot}
 layoutVer: 1
 bucketId: 7a00379d-bb6a-4903-a572-ab1d7e075625

@@ -8,14 +8,14 @@
     "connections" : [ ],
     "controllerServices" : [ ],
     "funnels" : [ ],
-    "identifier" : "7ee9e16d-f00f-3bfd-ba9f-0817f509f383",
+    "identifier" : "2766715c-2976-32b8-9e66-00b6d0922c3d",
     "inputPorts" : [ ],
     "labels" : [ ],
     "name" : "Test2",
     "outputPorts" : [ ],
     "position" : {
-      "x" : 2900.478801404709,
-      "y" : 342.9841332163056
+      "x" : 1979.5,
+      "y" : 714.5
     },
     "processGroups" : [ ],
     "processors" : [ ],
