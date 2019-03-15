@@ -1,0 +1,25 @@
+{
+  "header" : {
+    "dataModelVersion" : "2"
+  },
+  "content" : {
+    "comments" : "",
+    "componentType" : "PROCESS_GROUP",
+    "connections" : [ ],
+    "controllerServices" : [ ],
+    "funnels" : [ ],
+    "identifier" : "7ee9e16d-f00f-3bfd-ba9f-0817f509f383",
+    "inputPorts" : [ ],
+    "labels" : [ ],
+    "name" : "Test2",
+    "outputPorts" : [ ],
+    "position" : {
+      "x" : 2900.478801404709,
+      "y" : 342.9841332163056
+    },
+    "processGroups" : [ ],
+    "processors" : [ ],
+    "remoteProcessGroups" : [ ],
+    "variables" : { }
+  }
+}
