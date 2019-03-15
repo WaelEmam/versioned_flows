@@ -223,8 +223,8 @@
       "name" : "TailFile",
       "penaltyDuration" : "30 sec",
       "position" : {
-        "x" : 767.730290128944,
-        "y" : 93.0
+        "x" : 354.73029012894403,
+        "y" : 4.0
       },
       "properties" : {
         "tail-base-directory" : "/var/log/nifi",
