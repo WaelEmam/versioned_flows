@@ -1,0 +1,25 @@
+{
+  "header" : {
+    "dataModelVersion" : "2"
+  },
+  "content" : {
+    "comments" : "",
+    "componentType" : "PROCESS_GROUP",
+    "connections" : [ ],
+    "controllerServices" : [ ],
+    "funnels" : [ ],
+    "identifier" : "da6ec401-3c74-3248-ab68-6b4b3a32bacc",
+    "inputPorts" : [ ],
+    "labels" : [ ],
+    "name" : "Tail_File_git",
+    "outputPorts" : [ ],
+    "position" : {
+      "x" : 2130.686942262693,
+      "y" : 368.87622679676156
+    },
+    "processGroups" : [ ],
+    "processors" : [ ],
+    "remoteProcessGroups" : [ ],
+    "variables" : { }
+  }
+}
