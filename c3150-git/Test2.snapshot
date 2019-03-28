@@ -1,0 +1,98 @@
+{
+  "header" : {
+    "dataModelVersion" : "2"
+  },
+  "content" : {
+    "comments" : "",
+    "componentType" : "PROCESS_GROUP",
+    "connections" : [ ],
+    "controllerServices" : [ ],
+    "funnels" : [ ],
+    "identifier" : "7ee9e16d-f00f-3bfd-ba9f-0817f509f383",
+    "inputPorts" : [ ],
+    "labels" : [ ],
+    "name" : "Test2",
+    "outputPorts" : [ ],
+    "position" : {
+      "x" : 3268.306193982834,
+      "y" : 582.2929711069306
+    },
+    "processGroups" : [ {
+      "comments" : "",
+      "componentType" : "PROCESS_GROUP",
+      "connections" : [ ],
+      "controllerServices" : [ ],
+      "funnels" : [ ],
+      "groupIdentifier" : "7ee9e16d-f00f-3bfd-ba9f-0817f509f383",
+      "identifier" : "8e43597e-3c64-3c7f-af76-81ff9461ec3b",
+      "inputPorts" : [ ],
+      "labels" : [ ],
+      "name" : "Project 1",
+      "outputPorts" : [ ],
+      "position" : {
+        "x" : 2979.994288715642,
+        "y" : 796.9974680259122
+      },
+      "processGroups" : [ ],
+      "processors" : [ ],
+      "remoteProcessGroups" : [ ],
+      "variables" : { },
+      "versionedFlowCoordinates" : {
+        "bucketId" : "62464ac9-2dc0-486e-a172-cc1ed993ab53",
+        "flowId" : "fe974c36-e4fb-4b93-8e4e-1eeb5b9032f6",
+        "registryUrl" : "https://c3150-node3.wael.cloudera.com:61443",
+        "version" : 1
+      }
+    } ],
+    "processors" : [ {
+      "autoTerminatedRelationships" : [ ],
+      "bulletinLevel" : "WARN",
+      "bundle" : {
+        "artifact" : "nifi-stateful-analysis-nar",
+        "group" : "org.apache.nifi",
+        "version" : "1.7.0.3.2.0.0-520"
+      },
+      "comments" : "",
+      "componentType" : "PROCESSOR",
+      "concurrentlySchedulableTaskCount" : 1,
+      "executionNode" : "ALL",
+      "groupIdentifier" : "7ee9e16d-f00f-3bfd-ba9f-0817f509f383",
+      "identifier" : "01e1bd0c-5baa-3210-b73f-34b74ebae6bc",
+      "name" : "AttributeRollingWindow",
+      "penaltyDuration" : "30 sec",
+      "position" : {
+        "x" : 2448.5,
+        "y" : 461.5
+      },
+      "properties" : { },
+      "propertyDescriptors" : {
+        "Value to track" : {
+          "displayName" : "Value to track",
+          "identifiesControllerService" : false,
+          "name" : "Value to track",
+          "sensitive" : false
+        },
+        "Time window" : {
+          "displayName" : "Time window",
+          "identifiesControllerService" : false,
+          "name" : "Time window",
+          "sensitive" : false
+        },
+        "Sub-window length" : {
+          "displayName" : "Sub-window length",
+          "identifiesControllerService" : false,
+          "name" : "Sub-window length",
+          "sensitive" : false
+        }
+      },
+      "runDurationMillis" : 0,
+      "schedulingPeriod" : "0 sec",
+      "schedulingStrategy" : "TIMER_DRIVEN",
+      "style" : { },
+      "type" : "org.apache.nifi.processors.stateful.analysis.AttributeRollingWindow",
+      "yieldDuration" : "1 sec"
+    } ],
+    "remoteProcessGroups" : [ ],
+    "variables" : { }
+  }
+}
