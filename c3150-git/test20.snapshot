@@ -36,7 +36,13 @@
       "processGroups" : [ ],
       "processors" : [ ],
       "remoteProcessGroups" : [ ],
-      "variables" : { }
+      "variables" : { },
+      "versionedFlowCoordinates" : {
+        "bucketId" : "62464ac9-2dc0-486e-a172-cc1ed993ab53",
+        "flowId" : "bbb83c29-c3b1-45de-b536-d760c0e4d002",
+        "registryUrl" : "https://c3150-node3.wael.cloudera.com:61443",
+        "version" : 1
+      }
     } ],
     "processors" : [ ],
     "remoteProcessGroups" : [ ],
