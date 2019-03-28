@@ -1,5 +1,5 @@
 flows:
   fe974c36-e4fb-4b93-8e4e-1eeb5b9032f6: {ver: 1, file: Project-1.snapshot}
-  872aeaa0-e025-425d-a8dc-2e047babbe26: {ver: 1, file: Test2.snapshot}
+  872aeaa0-e025-425d-a8dc-2e047babbe26: {ver: 2, file: Test2.snapshot}
 layoutVer: 1
 bucketId: 62464ac9-2dc0-486e-a172-cc1ed993ab53
