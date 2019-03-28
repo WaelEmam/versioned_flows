@@ -1,0 +1,28 @@
+{
+  "header" : {
+    "dataModelVersion" : "2"
+  },
+  "content" : {
+    "comments" : "",
+    "componentType" : "PROCESS_GROUP",
+    "connections" : [ ],
+    "controllerServices" : [ ],
+    "funnels" : [ ],
+    "identifier" : "e2a61dd3-c095-3e28-b5c6-98be4ac14677",
+    "inputPorts" : [ ],
+    "labels" : [ ],
+    "name" : "Project 1",
+    "outputPorts" : [ ],
+    "position" : {
+      "x" : 2726.3315267436983,
+      "y" : 381.2482507025732
+    },
+    "processGroups" : [ ],
+    "processors" : [ ],
+    "remoteProcessGroups" : [ ],
+    "variables" : {
+      "TargetDirectory" : "/tmp/nifi",
+      "ListFilesInputDirectory" : "/var/log/nifi"
+    }
+  }
+}
