@@ -1,0 +1,51 @@
+{
+  "header" : {
+    "dataModelVersion" : "2"
+  },
+  "content" : {
+    "comments" : "",
+    "componentType" : "PROCESS_GROUP",
+    "connections" : [ ],
+    "controllerServices" : [ ],
+    "funnels" : [ ],
+    "identifier" : "16dcb468-6214-3d11-9f44-4a01fae27ecd",
+    "inputPorts" : [ ],
+    "labels" : [ ],
+    "name" : "Test2",
+    "outputPorts" : [ ],
+    "position" : {
+      "x" : 3156.2211418590377,
+      "y" : 562.7718768932264
+    },
+    "processGroups" : [ {
+      "comments" : "",
+      "componentType" : "PROCESS_GROUP",
+      "connections" : [ ],
+      "controllerServices" : [ ],
+      "funnels" : [ ],
+      "groupIdentifier" : "16dcb468-6214-3d11-9f44-4a01fae27ecd",
+      "identifier" : "e2a61dd3-c095-3e28-b5c6-98be4ac14677",
+      "inputPorts" : [ ],
+      "labels" : [ ],
+      "name" : "Project 1",
+      "outputPorts" : [ ],
+      "position" : {
+        "x" : 2726.3315267436983,
+        "y" : 381.2482507025732
+      },
+      "processGroups" : [ ],
+      "processors" : [ ],
+      "remoteProcessGroups" : [ ],
+      "variables" : { },
+      "versionedFlowCoordinates" : {
+        "bucketId" : "62464ac9-2dc0-486e-a172-cc1ed993ab53",
+        "flowId" : "ef64dc75-3099-4856-9e14-43524efaf160",
+        "registryUrl" : "https://c3150-node3.wael.cloudera.com:61443",
+        "version" : 1
+      }
+    } ],
+    "processors" : [ ],
+    "remoteProcessGroups" : [ ],
+    "variables" : { }
+  }
+}
