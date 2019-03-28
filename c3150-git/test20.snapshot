@@ -8,14 +8,14 @@
     "connections" : [ ],
     "controllerServices" : [ ],
     "funnels" : [ ],
-    "identifier" : "16dcb468-6214-3d11-9f44-4a01fae27ecd",
+    "identifier" : "2766715c-2976-32b8-9e66-00b6d0922c3d",
     "inputPorts" : [ ],
     "labels" : [ ],
     "name" : "Test2",
     "outputPorts" : [ ],
     "position" : {
-      "x" : 3156.2211418590377,
-      "y" : 562.7718768932264
+      "x" : 1979.5,
+      "y" : 714.5
     },
     "processGroups" : [ {
       "comments" : "",
@@ -23,28 +23,75 @@
       "connections" : [ ],
       "controllerServices" : [ ],
       "funnels" : [ ],
-      "groupIdentifier" : "16dcb468-6214-3d11-9f44-4a01fae27ecd",
-      "identifier" : "e2a61dd3-c095-3e28-b5c6-98be4ac14677",
+      "groupIdentifier" : "2766715c-2976-32b8-9e66-00b6d0922c3d",
+      "identifier" : "06e10ebb-7ae0-38f3-b684-9a140e116a9e",
       "inputPorts" : [ ],
       "labels" : [ ],
       "name" : "Project 1",
       "outputPorts" : [ ],
       "position" : {
-        "x" : 2726.3315267436983,
-        "y" : 381.2482507025732
+        "x" : 2284.28599601291,
+        "y" : 732.3498193659863
       },
       "processGroups" : [ ],
       "processors" : [ ],
       "remoteProcessGroups" : [ ],
       "variables" : { },
       "versionedFlowCoordinates" : {
-        "bucketId" : "62464ac9-2dc0-486e-a172-cc1ed993ab53",
-        "flowId" : "bbb83c29-c3b1-45de-b536-d760c0e4d002",
-        "registryUrl" : "https://c3150-node3.wael.cloudera.com:61443",
+        "bucketId" : "a9ac963e-e1c2-4005-84b3-7953af7cde11",
+        "flowId" : "48eddcd8-1c5f-4b00-a4a8-90d2471d4435",
+        "registryUrl" : "https://c1150-node3.wael.cloudera.com:61443",
         "version" : 1
       }
     } ],
-    "processors" : [ ],
+    "processors" : [ {
+      "autoTerminatedRelationships" : [ ],
+      "bulletinLevel" : "WARN",
+      "bundle" : {
+        "artifact" : "nifi-stateful-analysis-nar",
+        "group" : "org.apache.nifi",
+        "version" : "1.7.0.3.2.0.0-520"
+      },
+      "comments" : "",
+      "componentType" : "PROCESSOR",
+      "concurrentlySchedulableTaskCount" : 1,
+      "executionNode" : "ALL",
+      "groupIdentifier" : "2766715c-2976-32b8-9e66-00b6d0922c3d",
+      "identifier" : "af62223f-5e6e-32eb-bc42-ec2b059e3c9c",
+      "name" : "AttributeRollingWindow",
+      "penaltyDuration" : "30 sec",
+      "position" : {
+        "x" : 2070.5,
+        "y" : 371.5
+      },
+      "properties" : { },
+      "propertyDescriptors" : {
+        "Value to track" : {
+          "displayName" : "Value to track",
+          "identifiesControllerService" : false,
+          "name" : "Value to track",
+          "sensitive" : false
+        },
+        "Time window" : {
+          "displayName" : "Time window",
+          "identifiesControllerService" : false,
+          "name" : "Time window",
+          "sensitive" : false
+        },
+        "Sub-window length" : {
+          "displayName" : "Sub-window length",
+          "identifiesControllerService" : false,
+          "name" : "Sub-window length",
+          "sensitive" : false
+        }
+      },
+      "runDurationMillis" : 0,
+      "schedulingPeriod" : "0 sec",
+      "schedulingStrategy" : "TIMER_DRIVEN",
+      "style" : { },
+      "type" : "org.apache.nifi.processors.stateful.analysis.AttributeRollingWindow",
+      "yieldDuration" : "1 sec"
+    } ],
     "remoteProcessGroups" : [ ],
     "variables" : { }
   }
