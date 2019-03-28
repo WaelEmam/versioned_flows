@@ -24,132 +24,25 @@
       "controllerServices" : [ ],
       "funnels" : [ ],
       "groupIdentifier" : "2766715c-2976-32b8-9e66-00b6d0922c3d",
-      "identifier" : "115847e8-0c97-38bb-ab24-ce697b6389d3",
+      "identifier" : "06e10ebb-7ae0-38f3-b684-9a140e116a9e",
       "inputPorts" : [ ],
       "labels" : [ ],
-      "name" : "test12",
+      "name" : "Project 1",
       "outputPorts" : [ ],
       "position" : {
-        "x" : 2145.333984375,
-        "y" : 600.2224731445312
+        "x" : 2284.28599601291,
+        "y" : 732.3498193659863
       },
       "processGroups" : [ ],
-      "processors" : [ {
-        "autoTerminatedRelationships" : [ ],
-        "bulletinLevel" : "WARN",
-        "bundle" : {
-          "artifact" : "nifi-standard-nar",
-          "group" : "org.apache.nifi",
-          "version" : "1.7.0.3.2.0.0-520"
-        },
-        "comments" : "",
-        "componentType" : "PROCESSOR",
-        "concurrentlySchedulableTaskCount" : 1,
-        "executionNode" : "ALL",
-        "groupIdentifier" : "115847e8-0c97-38bb-ab24-ce697b6389d3",
-        "identifier" : "75a740ec-6f0c-33ec-820b-287762c517f3",
-        "name" : "CalculateRecordStats",
-        "penaltyDuration" : "30 sec",
-        "position" : {
-          "x" : 1993.0,
-          "y" : 268.0
-        },
-        "properties" : {
-          "record-stats-limit" : "10"
-        },
-        "propertyDescriptors" : {
-          "record-stats-limit" : {
-            "displayName" : "record-stats-limit",
-            "identifiesControllerService" : false,
-            "name" : "record-stats-limit",
-            "sensitive" : false
-          },
-          "record-stats-reader" : {
-            "displayName" : "Record Reader",
-            "identifiesControllerService" : true,
-            "name" : "record-stats-reader",
-            "sensitive" : false
-          }
-        },
-        "runDurationMillis" : 0,
-        "schedulingPeriod" : "0 sec",
-        "schedulingStrategy" : "TIMER_DRIVEN",
-        "style" : { },
-        "type" : "org.apache.nifi.processors.standard.CalculateRecordStats",
-        "yieldDuration" : "1 sec"
-      }, {
-        "autoTerminatedRelationships" : [ ],
-        "bulletinLevel" : "WARN",
-        "bundle" : {
-          "artifact" : "nifi-standard-nar",
-          "group" : "org.apache.nifi",
-          "version" : "1.7.0.3.2.0.0-520"
-        },
-        "comments" : "",
-        "componentType" : "PROCESSOR",
-        "concurrentlySchedulableTaskCount" : 1,
-        "executionNode" : "ALL",
-        "groupIdentifier" : "115847e8-0c97-38bb-ab24-ce697b6389d3",
-        "identifier" : "de8d4e5e-5efc-339a-be5d-015e4916ce24",
-        "name" : "AttributesToCSV",
-        "penaltyDuration" : "30 sec",
-        "position" : {
-          "x" : 2060.0,
-          "y" : 591.0
-        },
-        "properties" : {
-          "null-value" : "false",
-          "include-core-attributes" : "true",
-          "destination" : "flowfile-attribute",
-          "include-schema" : "false"
-        },
-        "propertyDescriptors" : {
-          "null-value" : {
-            "displayName" : "Null Value",
-            "identifiesControllerService" : false,
-            "name" : "null-value",
-            "sensitive" : false
-          },
-          "include-core-attributes" : {
-            "displayName" : "Include Core Attributes",
-            "identifiesControllerService" : false,
-            "name" : "include-core-attributes",
-            "sensitive" : false
-          },
-          "attributes-regex" : {
-            "displayName" : "Attributes Regular Expression",
-            "identifiesControllerService" : false,
-            "name" : "attributes-regex",
-            "sensitive" : false
-          },
-          "destination" : {
-            "displayName" : "Destination",
-            "identifiesControllerService" : false,
-            "name" : "destination",
-            "sensitive" : false
-          },
-          "include-schema" : {
-            "displayName" : "Include Schema",
-            "identifiesControllerService" : false,
-            "name" : "include-schema",
-            "sensitive" : false
-          },
-          "attribute-list" : {
-            "displayName" : "Attribute List",
-            "identifiesControllerService" : false,
-            "name" : "attribute-list",
-            "sensitive" : false
-          }
-        },
-        "runDurationMillis" : 0,
-        "schedulingPeriod" : "0 sec",
-        "schedulingStrategy" : "TIMER_DRIVEN",
-        "style" : { },
-        "type" : "org.apache.nifi.processors.standard.AttributesToCSV",
-        "yieldDuration" : "1 sec"
-      } ],
+      "processors" : [ ],
       "remoteProcessGroups" : [ ],
-      "variables" : { }
+      "variables" : { },
+      "versionedFlowCoordinates" : {
+        "bucketId" : "a9ac963e-e1c2-4005-84b3-7953af7cde11",
+        "flowId" : "48eddcd8-1c5f-4b00-a4a8-90d2471d4435",
+        "registryUrl" : "https://c1150-node3.wael.cloudera.com:61443",
+        "version" : 1
+      }
     } ],
     "processors" : [ {
       "autoTerminatedRelationships" : [ ],
