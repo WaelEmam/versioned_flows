@@ -36,11 +36,11 @@
       "backPressureDataSizeThreshold" : "1 GB",
       "backPressureObjectThreshold" : 10000,
       "bends" : [ {
-        "x" : 2519.675368763872,
-        "y" : 613.9568506288845
+        "x" : 2587.879226185747,
+        "y" : 575.9698511171657
       }, {
-        "x" : 2519.675368763872,
-        "y" : 663.9568506288845
+        "x" : 2587.879226185747,
+        "y" : 625.9698511171657
       } ],
       "componentType" : "CONNECTION",
       "destination" : {
@@ -155,8 +155,8 @@
       "name" : "FetchFile",
       "penaltyDuration" : "30 sec",
       "position" : {
-        "x" : 2064.675368763872,
-        "y" : 573.9568506288845
+        "x" : 2132.879226185747,
+        "y" : 535.9698511171657
       },
       "properties" : {
         "Move Conflict Strategy" : "Rename",
