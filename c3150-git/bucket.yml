@@ -1,5 +1,4 @@
 flows:
-  ef64dc75-3099-4856-9e14-43524efaf160: {ver: 2, file: project1.snapshot}
   8200ca9b-a1a8-434c-a203-bab826a78832: {ver: 2, file: tes.snapshot}
   fa97364c-7500-4da7-835e-b3d37b5a87c4: {ver: 2, file: test2.snapshot}
 layoutVer: 1
